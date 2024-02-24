@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civics App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <!-- <a href="about_me.html">About Me</a> -->
+        <a href="input_page.html">Add Questions or Feedback</a>
+    </nav>
+
+    <div>
+        <form action="/inputs/create" method="POST">
+            <label for="neighborhood">Choose a Neighborhood:</label>
+            <select id="neighborhood" name="neighborhood">
+              <option value="">Select Neighborhood</option>
+              <option value="Astoria">Astoria</option>
+              <option value="Long Island City">Long Island City</option>
+              <option value="Jackson Heights">Jackson Heights</option>
+              <option value="Flushing">Flushing</option>
+              <option value="Forest Hills">Forest Hills</option>
+              <option value="Jamaica">Jamaica</option>
+              <option value="Bayside">Bayside</option>
+              <option value="Elmhurst">Elmhurst</option>
+              <option value="Fresh Meadows">Fresh Meadows</option>
+              <option value="Rego Park">Rego Park</option>
+              <option value="Woodside">Woodside</option>
+              <option value="Howard Beach">Howard Beach</option>
+              <option value="Richmond Hill">Richmond Hill</option>
+              <option value="Queens Village">Queens Village</option>
+              <option value="Rockaway Beach">Rockaway Beach</option>
+              <option value="Whitestone">Whitestone</option>
+              <option value="Sunnyside">Sunnyside</option>
+              <option value="Cambria Heights">Cambria Heights</option>
+              <option value="Ridgewood">Ridgewood</option>
+              <option value="Maspeth">Maspeth</option>
+              <option value="Ozone Park">Ozone Park</option>
+              <option value="South Ozone Park">South Ozone Park</option>
+              <option value="Woodhaven">Woodhaven</option>
+              <option value="Middle Village">Middle Village</option>
+              <option value="College Point">College Point</option>
+              <option value="Bellerose">Bellerose</option>
+              <option value="Douglaston">Douglaston</option>
+              <option value="Little Neck">Little Neck</option>
+              <option value="Springfield Gardens">Springfield Gardens</option>
+              <option value="Glen Oaks">Glen Oaks</option>
+              <option value="Laurelton">Laurelton</option>
+              <option value="Rosedale">Rosedale</option>
+              <option value="Kew Gardens">Kew Gardens</option>
+              <option value="Kew Gardens Hills">Kew Gardens Hills</option>
+              <option value="Hollis">Hollis</option>
+              <option value="Holliswood">Holliswood</option>
+              <option value="Queensboro Hill">Queensboro Hill</option>
+              <option value="Briarwood">Briarwood</option>
+              <option value="Far Rockaway">Far Rockaway</option>
+              <option value="Arverne">Arverne</option>
+              <option value="Edgemere">Edgemere</option>
+              <option value="Belle Harbor">Belle Harbor</option>
+              <option value="Neponsit">Neponsit</option>
+              <option value="Breezy Point">Breezy Point</option>
+              <option value="Broad Channel">Broad Channel</option>
+              <option value="Somerville">Somerville</option>
+              <option value="Steinway">Steinway</option>
+              <option value="North Corona">North Corona</option>
+              <option value="South Jamaica">South Jamaica</option>
+              <option value="St. Albans">St. Albans</option>
+              <option value="Hunters Point">Hunters Point</option>
+            </select>
+
+            <label for="issue">Select a Civic Engagement Topic:</label>
+            <select id="issue" name="issue">
+              <option value="">Select Topic</option>
+              <option value="Immigration">Immigration</option>
+              <option value="Public Health">Public Health</option>
+              <option value="Voting">Voting</option>
+              <option value="Education">Education</option>
+              <option value="Housing">Housing</option>
+            </select>
+
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* Strcture for info */
+nav a{
+    margin-left: 200px;
+}
+.structure{
+    display: flex;
+    border: 5px, solid; 
+    margin-top: 50px;
+}
+.info{
+    margin-left: 100px
+}
